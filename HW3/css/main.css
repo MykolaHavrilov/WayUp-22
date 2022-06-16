@@ -1,0 +1,75 @@
+/* color galery */
+:root {
+    --color-galery-red: #FF0000;
+    --color-galery-green: #3e8a2e;
+    --color-galery-blue: #0000ff;
+    --color-galery-black: #000000;
+    --color-galery-white: #ffffff;
+}
+
+
+/* index.html */
+
+.links {
+    text-decoration: none;
+}
+
+
+/* body main */
+
+.body {
+    margin: 5px, auto;
+}
+
+    /* header */
+
+.title-h1 {
+    color: var(--color-galery-red);
+}
+
+.p-blue {
+    width: 100px;
+    color: var(--color-galery-white);
+    background-color: var(--color-galery-blue);
+}
+.p-margin {
+    margin-top: 100px;
+}
+.span-red {
+    color: var(--color-galery-red);
+}
+
+    /* тело */
+
+.title-h2 {
+    padding: 5px;
+
+    color: var(--color-galery-white);
+    background-color: var(--color-galery-green);
+}
+
+    /* Что дальше */
+
+    /* Что я буду уметь? */
+
+.title-h2-padding {
+    padding: 30px;
+
+    color: var(--color-galery-white);
+    background-color: var(--color-galery-green);
+}
+
+.forms .title {
+    margin-left: 150px;
+}
+
+
+
+.list-first {
+    font-size: 27px;
+}
+
+.list-first li {
+    outline: 1px solid var(--color-galery-black);
+}
+    /* footer */
